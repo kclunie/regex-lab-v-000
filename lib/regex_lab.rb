@@ -21,7 +21,7 @@ if
   text.match(/\A\w|\W\z/)
   return true
 else
-  false
+  return false
 end
 end
 
